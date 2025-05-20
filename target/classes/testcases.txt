@@ -1,0 +1,9 @@
+Input: "()())()"
+Output: [&quot;(())()&quot;,&quot;()()()&quot;]
+
+Input: ")("
+Output: [&quot;&quot;]
+
+Input: "(a)())()"
+Output: [&quot;(a())()&quot;,&quot;(a)()()&quot;]
+

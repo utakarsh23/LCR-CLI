@@ -1,0 +1,50 @@
+{
+  "int": {
+    "javaDeclaration": "int ${name} = ${value};",
+    "parseValue": "${value}"
+  },
+  "Integer": {
+    "javaDeclaration": "Integer ${name} = ${value};",
+    "parseValue": "${value}"
+  },
+  "String": {
+    "javaDeclaration": "String ${name} = \"${value}\";",
+    "parseValue": "\"${value}\""
+  },
+  "String_from_Integer": {
+    "javaDeclaration": "String ${name} = String.valueOf(${value});",
+    "parseValue": "${value}"
+  },
+  "List<Integer>": {
+    "javaDeclaration": "List<Integer> ${name} = Arrays.asList(${value});",
+    "parseValue": "${value}"
+  },
+  "List<String>": {
+    "javaDeclaration": "List<String> ${name} = Arrays.asList(${value});",
+    "parseValue": "${value}"
+  },
+  "int[]": {
+    "javaDeclaration": "int[] ${name} = new int[]{${value}};",
+    "parseValue": "${value}"
+  },
+  "int[][]": {
+    "javaDeclaration": "int[][] ${name} = new int[][]{${value}};",
+    "parseValue": "${value}"
+  },
+  "String[]": {
+    "javaDeclaration": "String[] ${name} = new String[]{${value}};",
+    "parseValue": "${value}"
+  },
+  "char[]": {
+    "javaDeclaration": "char[] ${name} = new char[]{${value}};",
+    "parseValue": "${value}"
+  },
+  "char[][]": {
+    "javaDeclaration": "char[][] ${name} = new char[][]{${value}};",
+    "parseValue": "${value}"
+  },
+  "List<List<Integer>>": {
+    "javaDeclaration": "List<List<Integer>> ${name} = Arrays.asList(${value});",
+    "parseValue": "${value}"
+  }
+}

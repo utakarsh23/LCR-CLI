@@ -1,0 +1,10 @@
+TestCases/TestCase.class
+TestCases/VariableGenerator$1.class
+TestCases/VariableGenerator.class
+lcr/Main.class
+lcr/SessionManager.class
+lcr/LoginCommand.class
+lcr/ApiClient$1.class
+lcr/ApiClient$2.class
+lcr/ApiClient.class
+Question/TemplateGenerator.class

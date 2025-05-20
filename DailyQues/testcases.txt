@@ -1,0 +1,9 @@
+Input: 11
+Output: 3
+
+Input: 128
+Output: 1
+
+Input: 2147483645
+Output: 30
+

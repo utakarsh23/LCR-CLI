@@ -1,0 +1,8 @@
+{
+  "language": "java",
+  "methodName": "solve",
+  "arguments": [
+    { "name": "arg1", "type": "int[]" }
+  ],
+  "returnType": "int"
+}
