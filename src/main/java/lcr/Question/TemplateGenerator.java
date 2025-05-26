@@ -1,6 +1,8 @@
-package Question;
+package lcr.Question;
 
-import TestCases.TestCase;
+
+
+import lcr.TestCases.TestCase;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -34,18 +36,27 @@ public class TemplateGenerator {
                 }
             }
 
+            StringBuilder testCasesSb = new StringBuilder();
+            if(testCases != null) {
+                for(int i = 0; i < testCases.size() - (testCases.size()-3); i++) {
+                    TestCase testCase = testCases.get(i);
+                    testCasesSb.append("Input : ").append(testCase.getInput()).append(" \nOutput :").append(testCase.getOutput()).append("\n");
+                }
+            }
             // Generate code file with basic template
             File codeFile = new File(dir, filename);
             try (FileWriter writer = new FileWriter(codeFile)) {
                 switch (lang.toLowerCase()) {
-                    case "java" -> writer.write("""
+                    case "java" -> writer.write(
+                            "/*"+questionUrl + "\n" + testCasesSb + " */\n"+ """
                         public class Submission {
                             public static void main(String[] args) {
                                 // Your code here
                             }
                         }
                         """);
-                    case "cpp" -> writer.write("""
+                    case "cpp" -> writer.write(
+                            "/*"+questionUrl + "\n" + testCasesSb + " */\n"+ """
                         #include <iostream>
                         using namespace std;
 
@@ -54,7 +65,8 @@ public class TemplateGenerator {
                             return 0;
                         }
                         """);
-                    case "python", "py" -> writer.write("""
+                    case "python", "py" -> writer.write(
+                            "/*"+questionUrl + "\n" + testCasesSb + " */\n"+ """
                         def main():
                             # Your code here
                             pass

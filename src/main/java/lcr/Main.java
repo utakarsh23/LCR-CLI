@@ -1,5 +1,8 @@
 package lcr;
 
+import lcr.lcr.ApiClient;
+import lcr.lcr.LoginCommand;
+
 import java.util.Arrays;
 
 public class Main {

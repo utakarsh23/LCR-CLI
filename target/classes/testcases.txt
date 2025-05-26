@@ -1,9 +1,6 @@
-Input: "()())()"
-Output: [&quot;(())()&quot;,&quot;()()()&quot;]
+Input: [3,3,3]
+Output: &quot;equilateral&quot;
 
-Input: ")("
-Output: [&quot;&quot;]
-
-Input: "(a)())()"
-Output: [&quot;(a())()&quot;,&quot;(a)()()&quot;]
+Input: [3,4,5]
+Output: &quot;scalene&quot;
 

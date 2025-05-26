@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LeetCodeRevsCLI.iml" filepath="$PROJECT_DIR$/.idea/LeetCodeRevsCLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeRevsCLI.iml" filepath="$PROJECT_DIR$/LeetCodeRevsCLI.iml" />
     </modules>
   </component>
 </project>

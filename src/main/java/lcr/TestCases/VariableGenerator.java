@@ -1,4 +1,4 @@
-package TestCases;
+package lcr.TestCases;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,9 +1,9 @@
-package lcr;
+package lcr.lcr;
 
-import Question.TemplateGenerator;
-import TestCases.TestCase;
+import lcr.Question.TemplateGenerator;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lcr.TestCases.TestCase;
 
 import java.io.IOException;
 import java.net.URI;
@@ -16,7 +16,7 @@ import java.util.Map;
 public class ApiClient {
     private static final HttpClient CLIENT = HttpClient.newHttpClient();
     private static final ObjectMapper MAPPER = new ObjectMapper();
-    static TemplateGenerator templateGenerator = new TemplateGenerator();
+    private static TemplateGenerator templateGenerator;
 
     public static void getDailyQuestion() {
         String sessionId = SessionManager.getSession();

@@ -1,9 +1,165 @@
-Input: 11
-Output: 3
+Input: m = 20, n = 30
+Output: 11541847896480
 
-Input: 128
+Input: m = 1, n = 100
 Output: 1
 
-Input: 2147483645
-Output: 30
+Input: m = 3, n = 7
+Output: 28
+
+Input: m = 5, n = 5
+Output: 70
+
+Input: m = 10, n = 10
+Output: 48620
+
+Input: m = 5, n = 3
+Output: 15
+
+Input: m = 30, n = 20
+Output: 11541847896480
+
+Input: m = 1, n = 1
+Output: 1
+
+Input: m = 3, n = 2
+Output: 3
+
+Input: m = 100, n = 1
+Output: 1
+
+Input: m = 40, n = 30
+Output: 13750991318793417920
+
+Input: m = 67, n = 33
+Output: 65814642035034133075191231
+
+Input: m = 30, n = 30
+Output: 30067266499541040
+
+Input: m = 5, n = 95
+Output: 3612280
+
+Input: m = 15, n = 15
+Output: 40116600
+
+Input: m = 1, n = 50
+Output: 1
+
+Input: m = 30, n = 40
+Output: 13750991318793417920
+
+Input: m = 99, n = 99
+Output: 5716592448890534420436582360196242777068052430850904489000
+
+Input: m = 25, n = 75
+Output: 45931679871275969889300
+
+Input: m = 90, n = 10
+Output: 1573664496040
+
+Input: m = 75, n = 75
+Output: 23362265873332749085315221863910685052043000
+
+Input: m = 30, n = 25
+Output: 779255311989700
+
+Input: m = 75, n = 25
+Output: 45931679871275969889300
+
+Input: m = 30, n = 70
+Output: 6230496325796261023265040
+
+Input: m = 100, n = 5
+Output: 4421275
+
+Input: m = 80, n = 80
+Output: 23156006494021191956342707682359261381151378400
+
+Input: m = 40, n = 10
+Output: 1677106640
+
+Input: m = 80, n = 20
+Output: 86623575014757120480
+
+Input: m = 5, n = 8
+Output: 330
+
+Input: m = 99, n = 1
+Output: 1
+
+Input: m = 5, n = 100
+Output: 4421275
+
+Input: m = 99, n = 2
+Output: 99
+
+Input: m = 10, n = 90
+Output: 1573664496040
+
+Input: m = 60, n = 60
+Output: 24356699707654619143838606602026720
+
+Input: m = 2, n = 99
+Output: 99
+
+Input: m = 1, n = 99
+Output: 1
+
+Input: m = 45, n = 35
+Output: 14429347509452441488650
+
+Input: m = 55, n = 45
+Output: 15362117803534044899180148240
+
+Input: m = 50, n = 2
+Output: 50
+
+Input: m = 60, n = 40
+Output: 3332420398982499757882998720
+
+Input: m = 50, n = 50
+Output: 25477612258980856902730428600
+
+Input: m = 100, n = 100
+Output: 22750883079422934966181954039568885395604168260154104734000
+
+Input: m = 15, n = 5
+Output: 3060
+
+Input: m = 99, n = 100
+Output: 11375441539711467483090977019784442697802084130077052367000
+
+Input: m = 20, n = 80
+Output: 86623575014757120480
+
+Input: m = 15, n = 20
+Output: 818809200
+
+Input: m = 45, n = 55
+Output: 15362117803534044899180148240
+
+Input: m = 25, n = 25
+Output: 32247603683100
+
+Input: m = 2, n = 50
+Output: 50
+
+Input: m = 40, n = 60
+Output: 3332420398982499757882998720
+
+Input: m = 50, n = 1
+Output: 1
+
+Input: m = 70, n = 30
+Output: 6230496325796261023265040
+
+Input: m = 15, n = 25
+Output: 9669554100
+
+Input: m = 33, n = 67
+Output: 65814642035034133075191231
+
+Input: m = 35, n = 45
+Output: 14429347509452441488650
 

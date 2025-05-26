@@ -1,4 +1,4 @@
-package lcr;
+package lcr.lcr;
 
 import java.io.IOException;
 import java.nio.file.Files;

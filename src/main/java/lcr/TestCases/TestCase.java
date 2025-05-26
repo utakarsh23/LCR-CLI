@@ -1,4 +1,4 @@
-package TestCases;
+package lcr.TestCases;
 
 public class TestCase {
     private String input;
