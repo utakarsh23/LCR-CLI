@@ -3,8 +3,12 @@ lcr/TestCases/TestCase.class
 lcr/lcr/SessionManager.class
 lcr/TestCases/VariableGenerator.class
 lcr/Question/TemplateGenerator.class
+lcr/TestCases/TestCaseRunner$1.class
 lcr/Main.class
+lcr/TestCases/TestCaseCryptoUtils.class
 lcr/lcr/LoginCommand.class
 lcr/TestCases/VariableGenerator$1.class
+lcr/TestCases/TestCaseWriter.class
 lcr/lcr/ApiClient.class
 lcr/lcr/ApiClient$1.class
+lcr/TestCases/TestCaseRunner.class

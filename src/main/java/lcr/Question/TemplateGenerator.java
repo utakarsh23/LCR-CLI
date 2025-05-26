@@ -3,13 +3,20 @@ package lcr.Question;
 
 
 import lcr.TestCases.TestCase;
+import lcr.TestCases.TestCaseWriter;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
+//import static lcr.TestCases.TestCaseWriter.writeEncryptedTestCases;
+
 public class TemplateGenerator {
+
+
+    private static TestCaseWriter testCaseWriter;
+
 
     public static void generate(String questionUrl, String lang, List<TestCase> testCases) {
         try {
@@ -78,14 +85,20 @@ public class TemplateGenerator {
             }
 
             // Write test cases to file
-            File testFile = new File(dir, "testcases.txt");
-            try (FileWriter testWriter = new FileWriter(testFile)) {
-                for (TestCase testCase : testCases) {
-                    testWriter.write("Input: " + testCase.getInput() + "\n");
-                    testWriter.write("Output: " + testCase.getOutput() + "\n\n");
-                }
-            } catch (IOException e) {
-                System.err.println("Failed to write testcases: " + e.getMessage());
+//            try (FileWriter testWriter = new FileWriter(testFile)) {
+//                for (TestCase testCase : testCases) {
+//                    testWriter.write("Input: " + testCase.getInput() + "\n");
+//                    testWriter.write("Output: " + testCase.getOutput() + "\n\n");
+//                }
+//            } catch (IOException e) {
+//                System.err.println("Failed to write testcases: " + e.getMessage());
+//            }
+            File testFile = new File(dir, "testcases.json");
+            try {
+                assert testCases != null;
+                TestCaseWriter.writeEncryptedTestCases(testCases, testFile.getAbsolutePath());
+            } catch (Exception e) {
+                System.err.println("Can't parse the testCases : " + e);;
             }
 
             // Generate simple config.json with placeholder data

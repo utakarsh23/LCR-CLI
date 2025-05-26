@@ -1,6 +1,9 @@
 /Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/Main.java
 /Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/Question/TemplateGenerator.java
 /Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/TestCases/TestCase.java
+/Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/TestCases/TestCaseCryptoUtils.java
+/Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/TestCases/TestCaseRunner.java
+/Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/TestCases/TestCaseWriter.java
 /Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/TestCases/VariableGenerator.java
 /Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/lcr/ApiClient.java
 /Users/utkarshmani/Desktop/GitHub/LeetCodeRevsCLI/src/main/java/lcr/lcr/LoginCommand.java
